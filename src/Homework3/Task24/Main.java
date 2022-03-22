@@ -3,7 +3,7 @@ package Homework3.Task24;
 public class Main {
 
     public static void main(String[] args) {
-        TimeDescription time1 = new TimeDescription(800);
+        TimeDescription time1 = new TimeDescription(800000);
         System.out.println("First time : " + time1);
 
         TimeDescription time2 = new TimeDescription(25,15, 26);

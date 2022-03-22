@@ -34,8 +34,10 @@ public class TimeDescription {
         final long currentTimeInSeconds = this.getTimeInSeconds();
         final long anotherTimeInSeconds = anotherTimeDescription.getTimeInSeconds();
         if (currentTimeInSeconds > anotherTimeInSeconds){
+            System.out.println(" First time less then Second time");
             return 1;
         } else if (currentTimeInSeconds < anotherTimeInSeconds) {
+            System.out.println(" First time more then Second time ");
             return -1;
         }
         return 0;
