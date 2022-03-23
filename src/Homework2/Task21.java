@@ -6,19 +6,17 @@ public class Task21 {
 
     public static void main(String[] args) {
 
-        //int[] array = new int[]{10, 2, 3, 4, 6, 120, 120, 80, 9, 1};
+        //int[] array = new int[]{10, 2, 3, 4, 6, 120, 120, 80, 9, 1}; /* test
         int[] array = new int[10];
         for (int i = 0; i < array.length; i++) {
             array[i] = (int) (Math.random() * 100 - 1);
         }
         System.out.println("We create array: " + "\n" + Arrays.toString(array));
         //   Method getMaxValue Index
-        int max = getMax(array);
-        System.out.println("Maximum Value Index is: " + max);
-        // Method getMinValue Index
-        int min = getMin(array);
-        System.out.println("Minimum Value Index is: " + min);
-        System.out.println("Summ Number MaxIndex and MinIndex = " + sum(array));
+        System.out.println("Maximum Value Index is: " + getMax(array));
+        //   Method getMinValue Index
+        System.out.println("Minimum Value Index is: " + getMin(array));
+        System.out.println("Sum Number MaxIndex and MinIndex = " + sum(array));
 
     }
 
