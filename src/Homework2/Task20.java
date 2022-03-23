@@ -11,7 +11,6 @@ public class Task20 {
         }
         System.out.println("We create array: " + "\n" + Arrays.toString(array));
         System.out.println("Max number in array: " + array[IndexMax(array)] + "  have index : " + IndexMax(array));
-//
     }
 
     private static int IndexMax(int[] mass) {
