@@ -22,17 +22,17 @@ public class Task21 {
             System.out.println("Summ Number MaxIndex and MinIndex = " + sum(array));
 
         }
-
+        // Method calculate sum array MinIndex to MaxIndex
         public static int sum(int[] array){
             int sum = 0;
             int min = getMin(array);
             int max = getMax(array);
-            if (min < max && min != max && (max - min) != 1) {
+            if (min < max && (max - min) != 1) {
                 for (int i = min + 1; i < max; i++)
                     sum += array[i];
                 return sum;
             }
-            if (max < min && min != max && (min - max) != 1) {
+            if (max < min && (min - max) != 1) {
                 for (int i = max + 1; i < min; i++)
                     sum += array[i];
                 return sum;
