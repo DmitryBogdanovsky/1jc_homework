@@ -65,10 +65,10 @@ public class Bankomat {
 
     @Override
     public String toString() {
-        return "Bankomat{" +
-                " hundred=" + hundred +
-                ", fifty= " + fifty +
-                ", twenty=" + twenty +
+        return "Bankomat Balance:{"  +
+                " 100 = " + hundred +
+                ", 50 = " + fifty +
+                ", 20 = " + twenty +
                 '}';
     }
 }

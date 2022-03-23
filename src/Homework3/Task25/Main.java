@@ -11,6 +11,7 @@ public class Main {
         Money money = putMoney();
         Bankomat bankomat = new Bankomat(money.hundred, money.fifty, money.twenty);
         while (true) {
+
             System.out.print("Input value : ");
             int value = in.nextInt();
             System.out.println(bankomat.getMoney(value));
@@ -42,4 +43,5 @@ public class Main {
         }
 
     }
+
 }
