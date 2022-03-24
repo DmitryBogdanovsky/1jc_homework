@@ -9,7 +9,7 @@ public class Task26 {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
-        System.out.println(" Input text with { . ,?!<> ect.  :");
+        System.out.println(" Input text with { . ,?!<> ect.  : \n");
         String line = in.nextLine();
         int punto = 0;
         Pattern puntoPattern = Pattern.compile("[\\p{P}\\p{S}]");
