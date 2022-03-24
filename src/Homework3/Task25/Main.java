@@ -36,6 +36,7 @@ public class Main {
     }
 
     private static void checkExitOrContinue() {
+
         System.out.print("Please enter [E] to exit or any key to continue: ");
         String command = new Scanner(System.in).next();
         if (command.equalsIgnoreCase("E")) {
