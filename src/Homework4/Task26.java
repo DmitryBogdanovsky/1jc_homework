@@ -18,7 +18,7 @@ public class Task26 {
             punto++;
         }
 
-        System.out.println("Number of punctuation characters: in line " + punto);
+        System.out.println("Number of punctuation characters in line " + punto);
     }
 }
 
