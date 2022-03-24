@@ -14,11 +14,9 @@ public class Task26 {
         int punto = 0;
         Pattern puntoPattern = Pattern.compile("[\\p{P}\\p{S}]");
         Matcher matcherPunto = puntoPattern.matcher(line);
-        while (matcherPunto.find()){
+        while (matcherPunto.find()) {
             punto++;
         }
-
-
         System.out.println("Number of punctuation characters in line " + punto);
     }
 }
