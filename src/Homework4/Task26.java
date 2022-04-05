@@ -7,10 +7,9 @@ import java.util.regex.Pattern;
 public class Task26 {
 
     public static void main(String[] args) {
+        StringInput stringInput = new StringInput();
+        String line = stringInput.input();
 
-        Scanner in = new Scanner(System.in);
-        System.out.println(" Input text with { . ,?!<> ect.  : ");
-        String line = in.nextLine();
         int punto = 0;
         Pattern puntoPattern = Pattern.compile("[\\p{P}\\p{S}]");
         Matcher matcherPunto = puntoPattern.matcher(line);
