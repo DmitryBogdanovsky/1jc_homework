@@ -8,9 +8,8 @@ public class Task27 {
 
     public static void main(String[] args) {
 
-        Scanner in = new Scanner(System.in);
-        System.out.println(" Input text : " );
-        String line = in.nextLine();
+        StringInput stringInput = new StringInput();
+        String line = stringInput.input();
         int words = 0;
         Pattern wordsPattern = Pattern.compile("(?U)[^\\W_]+");
         Matcher matcherWords = wordsPattern.matcher(line);
