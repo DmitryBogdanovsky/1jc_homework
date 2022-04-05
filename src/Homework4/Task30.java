@@ -9,7 +9,6 @@ public class Task30 {
         Scanner in = new Scanner(System.in);
         System.out.println(" Input string : ");
         String line = in.nextLine();
-
         System.out.println(line.replaceAll("<p id=p1>", "<p>"));
     }
 
