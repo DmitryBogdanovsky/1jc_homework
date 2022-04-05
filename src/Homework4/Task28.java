@@ -7,9 +7,8 @@ import java.util.regex.Pattern;
 public class Task28 {
 
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        System.out.println(" Input text : " );
-        String line = in.nextLine();
+        StringInput stringInput = new StringInput();
+        String line = stringInput.input();
 
         Pattern pattern = Pattern.compile("([a-zа-я])\\b");
         Matcher matcher = pattern.matcher(line);
