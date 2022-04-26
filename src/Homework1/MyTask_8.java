@@ -15,7 +15,7 @@ public class MyTask_8 {
             System.out.println("Вы имеете: " + x + " рубль");
         else if (x % 10 <= 4 && x % 10 > 1)
             System.out.println("Вы имеете: " + x + " рубля");
-        else if (x % 10 > 4)
+        else if (x % 10 > 4 )
             System.out.println("Вы имеете: " + x + " рублей");
 
     }
