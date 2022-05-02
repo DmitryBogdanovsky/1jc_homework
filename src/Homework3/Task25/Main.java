@@ -11,8 +11,8 @@ public class Main {
         Money money = putMoney();
         Bankomat bankomat = new Bankomat(money.hundred, money.fifty, money.twenty);
         while (true) {
-
-            System.out.print("Input value : ");
+            System.out.println(bankomat);
+            System.out.print("Enter the amount of money to withdraw : ");
             int value = in.nextInt();
             System.out.println(bankomat.getMoney(value));
             System.out.println(bankomat);
@@ -25,11 +25,11 @@ public class Main {
 
         Scanner in = new Scanner(System.in);
 
-        System.out.print("Input 20 : ");
+        System.out.print("Input quantity 20 : ");
         int twenty = in.nextInt();
-        System.out.print("Input 50: ");
+        System.out.print("Input quantity 50: ");
         int fifty = in.nextInt();
-        System.out.print("Input 100: ");
+        System.out.print("Input quantity 100: ");
         int hundred = in.nextInt();
         return new Money(hundred, fifty, twenty);
 
