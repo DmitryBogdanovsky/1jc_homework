@@ -5,8 +5,7 @@ import java.util.InputMismatchException;
 
 public class Task45 {
     public static void main(String[] args) {
-        Expectionethod expectionMethod = new Expectionethod();
-
+        ExpectionMethod expectionMethod = new ExpectionMethod();
         try{
             expectionMethod.expection();
         } catch (ArithmeticException | InputMismatchException | IOException e){
