@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Expectionethod {
+public class ExpectionMethod {
     public int expection() throws IOException, InputMismatchException {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your number : ");
